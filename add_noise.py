@@ -13,7 +13,7 @@ def main():
     """
     # Input directory containing high-dose PNGs (batch)
     png_dir = Path(r"C:/Users/pytorch/Desktop/Dataset/dataset/train/gt/")
-    out_dir = Path(r"C:/Users/pytorch/Desktop/Dataset/dataset/simulated/train/tradition")
+    out_dir = Path(r"C:/Users/pytorch/Desktop/Dataset/dataset/simulated/2percent/tradition")
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Simulate 2% dose. The PNG-based function assumes a reference exposure of 125 mAs,
